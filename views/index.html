@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Angular 2 Hello World Example</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" ></script>
+	
+    <style>
+    
+    </style>
+    <script src="http://code.angularjs.org/snapshot/angular.js"></script>
+    <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js'></script> -->
+  
+    <!-- <script src='Scripts/app.js'></script>
+    <script src='Scripts/github.js'></script>
+    <script src='Scripts/MainController.js'></script> -->
+    <script src='Scripts/UserController.js'></script>
+   <!-- <script src='Scripts/RepoController.js'></script> -->
+    
+  
+</head>
+<!--<body ng-app='githubViewer'>-->
+    <body ng-app='githubViewer' ng-controller="UserController"><div>
+            <h1>Github Viewer</h1>
+            <!--<div ng-view> </div>-->
+
+            <div>
+                
+                <!--<div>{{error}}</div>
+                {{countdown}}-->
+                
+                <form name='searchUser' ng-submit='search(username)' novalidate>
+                
+                    <input type='search'  ng-model='username' />
+                    <input type='submit' value='Search' />
+                </form>
+                <!--<div ng-include="'views/userdetails.html'" ng-show='user'></div>-->
+                </div>
+    </div>
+</body>
+</html>

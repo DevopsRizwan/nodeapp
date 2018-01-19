@@ -1,0 +1,25 @@
+{
+  "name": "Chacha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.5",
+    "glob": "^7.1.1",
+    "graceful-fs": "^4.1.11",
+    "express": "^4.14.0",
+    "grunt-ts": "^6.0.0-beta.11",
+    "grunt": "^1.0.1",
+    "body-parser": "^1.16.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
